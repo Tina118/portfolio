@@ -1,3 +1,9 @@
-const App = () => <h1>Hello</h1>
+import Header from 'containers/Header'
+
+const App = () => (
+  <>
+    <Header />
+  </>
+)
 
 export default App

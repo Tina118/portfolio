@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 import { Flex } from 'rebass'
 
-import photo from 'assets/image.png'
+import photo from 'assets/Girl.gif'
 
 const Head = styled(Flex)`
   width: 100%;
+  height: 100%;
   background-color: #fefafa;
-  padding: 0 55px;
+  padding: 0px 55px;
 
   @media (max-width: 601px) {
     flex-direction: column-reverse;
@@ -78,14 +79,11 @@ const Button = styled.button`
 `
 
 const Photo = styled.img`
-  border-radius: 50%;
   width: 85%;
-  height: 85%;
-  border: 2px solid #ec5b53;
+  height: 100%;
 
   @media (max-width: 601px) {
-    height: 50%;
-    max-width: 50%;
+    width: 100%;
   }
 `
 
@@ -98,7 +96,7 @@ const Introduction = () => (
       flexWrap="wrap"
       flexDirection="column"
       sx={{
-        paddingTop: '50px',
+        paddingTop: '20px',
         [`@media (max-width: 601px)`]: {
           width: '100%',
           justifyContent: 'center',

@@ -1,12 +1,11 @@
 import styled from 'styled-components'
 
 const Head = styled.div`
-  width: 100%;
   background-color: #fefafa;
-  padding: 0px 35px;
+  padding: 0px 0px 0px 35px;
 
   @media (max-width: 601px) {
-    padding: 0px 20px;
+    padding: 0px 0px 0px 20px;
   }
 `
 

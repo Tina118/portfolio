@@ -7,7 +7,7 @@ import { BsGithub } from 'react-icons/bs'
 const Head = styled(Flex)`
   width: 100%;
   height: 100%;
-  padding: 0px 20px 70px 55px;
+  padding: 0px 20px 0px 55px;
   background-color: #fefafa;
   flex-direction: column;
 `
@@ -158,7 +158,7 @@ const MyPortfolio = () => (
       alignItems="center"
       justifyContent="center"
       flexDirection="column"
-      style={{ marginBottom: '50px', paddingRight: '35px' }}
+      style={{ marginBottom: '70px', paddingRight: '35px' }}
     >
       <H3>My Portfolio</H3>
       <Border />

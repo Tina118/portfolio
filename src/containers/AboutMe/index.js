@@ -161,7 +161,7 @@ const Box = styled.div`
 
 const aboutMe = [
   `Hello! My name is Tina Shah & I enjoy creating things that live on the internet. I'm a passionate frontend developer, with strong administrative and communcation skills, good attention to detail & the ability to write efficient code.`,
-  `Experience React Developer with a solid track record of almost 2.5 years in the industry.`,
+  `Experience React Developer with a solid track record of almost 3 years in the industry.`,
   `Proficient in creating robust and scalable web applications, leveraging React's component-based architecture, state management, and ecosystem of tools and libraries. Strong problem-solving skills and a keen eye for UI/UX, ensuring the delivery of high-quality and user-friendly applications.`,
 ]
 

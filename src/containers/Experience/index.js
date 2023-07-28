@@ -4,11 +4,15 @@ import { Flex } from 'rebass'
 const Head = styled(Flex)`
   width: 100%;
   height: 100%;
-  padding: 70px 55px;
+  padding: 70px 0px 20px 55px;
   flex-direction: column;
   background-color: #fefafa;
   background-image: url('https://websitedemos.net/personal-portfolio-02/wp-content/uploads/sites/770/2021/02/shape1.png');
   background-repeat: no-repeat;
+
+  @media (max-width:769px){
+    padding:70px 55px;
+  }
 `
 
 const H3 = styled.h3`
@@ -131,7 +135,7 @@ const Experience = () => (
             flexWrap="wrap"
             flexDirection="column"
             sx={{
-              padding: '50px 25px',
+              padding: '50px 55px 50px 0px',
               marginRight: '45px',
               [`@media (max-width: 769px)`]: {
                 width: '100%',

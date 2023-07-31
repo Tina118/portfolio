@@ -4,6 +4,7 @@ import AboutMe from 'containers/AboutMe'
 import Experience from 'containers/Experience'
 import MyPortfolio from 'containers/MyPortfolio'
 import Skills from 'containers/Skills'
+import Contacts from 'containers/Contacts'
 
 const App = () => (
   <>
@@ -13,6 +14,7 @@ const App = () => (
     <Experience />
     <MyPortfolio />
     <Skills />
+    <Contacts />
   </>
 )
 

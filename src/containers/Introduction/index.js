@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { Flex } from 'rebass'
 
 import photo from 'assets/Girl.gif'
+import resume from 'assets/resume.pdf'
 
 const Head = styled(Flex)`
   width: 100%;
@@ -71,6 +72,7 @@ const Button = styled.button`
   border-radius: 5px;
   padding: 15px 30px;
   margin-top: 35px;
+  cursor: pointer;
 
   @media (max-width: 601px) {
     width: 100%;
@@ -86,6 +88,18 @@ const Photo = styled.img`
     width: 100%;
   }
 `
+
+const onButtonClick = () => {
+  fetch(resume).then((response) => {
+    response.blob().then((blob) => {
+      const fileURL = window.URL.createObjectURL(blob)
+      let alink = document.createElement('a')
+      alink.href = fileURL
+      alink.download = 'Tina_Resume.pdf'
+      alink.click()
+    })
+  })
+}
 
 const Introduction = () => (
   <Head>
@@ -114,7 +128,7 @@ const Introduction = () => (
         interactions, developing rich web applications and seamless web
         experiences.
       </Description>
-      <Button>Resume</Button>
+      <Button onClick={onButtonClick}>Resume</Button>
     </Flex>
     <Flex
       width="40%"

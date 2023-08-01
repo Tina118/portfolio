@@ -84,6 +84,8 @@ const Description = styled.span`
   }
 `
 
+const redirect = (url) => window.open(url, '_blank')
+
 const Contacts = () => (
   <Head>
     <Flex
@@ -147,7 +149,12 @@ const Contacts = () => (
             style={{ marginTop: '20px' }}
           >
             <AiOutlineLinkedin size={22} style={{ marginRight: '10px' }} />
-            <Description style={{ textDecoration: 'underline',cursor:'pointer' }}>
+            <Description
+              style={{ textDecoration: 'underline', cursor: 'pointer' }}
+              onClick={() =>
+                redirect('https://www.linkedin.com/in/tina-shah-10abab1a0/')
+              }
+            >
               Profile
             </Description>
           </Flex>

@@ -164,7 +164,7 @@ const portfolio = [
       'This project is my portfolio which has details about me, my experience, projects worked on, skills and contact details.',
     techStack: 'HTML, CSS, Javascript, React, styled-components',
     moreDetails: 'https://github.com/Tina118/portfolio/blob/master/README.md',
-    website: '',
+    website: 'https://tina118.github.io/portfolio/',
     github: 'https://github.com/Tina118/portfolio',
   },
 ]

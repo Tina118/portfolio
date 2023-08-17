@@ -7,6 +7,7 @@ import javascript from 'assets/js.png'
 import typescript from 'assets/typescript.png'
 import react from 'assets/react.jpeg'
 import redux from 'assets/redux.jpeg'
+import git from 'assets/git.jpeg'
 
 const Head = styled(Flex)`
   width: 100%;
@@ -78,6 +79,7 @@ const skills = [
   { name: 'Typescript', src: typescript },
   { name: 'React', src: react },
   { name: 'Redux', src: redux },
+  { name: 'Git', src: git },
 ]
 
 const Skills = () => (
